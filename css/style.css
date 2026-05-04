@@ -32,6 +32,10 @@ a {
   text-decoration: underline;
 }
 
+a:hover {
+  color: #d8d365;
+}
+
 .title {
   text-align: center !important;
   justify-content: center;
@@ -62,6 +66,7 @@ a {
   font-size: 55px;
   line-height: 55px;
   float: left;
+  color: #d8d365;
 }
 
 /* When it's less than 500 pixels wide */
