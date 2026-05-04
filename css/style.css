@@ -1,0 +1,89 @@
+html,
+body {
+  font: 'Roboto';
+  text-rendering: optimizeLegibility;
+  background-color: #050100;
+  color: #ffffff;
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+#graphic {
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.top-image-container {
+  position: relative;
+  text-align: center;
+}
+
+img {
+  width: 25%;
+  justify-content: center;
+  margin-bottom: auto;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.title {
+  text-align: center !important;
+  justify-content: center;
+  position: relative;
+  margin-bottom: auto;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.dek {
+  text-align: center !important;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 50px;
+  font-size: 16px;
+}
+
+.caption {
+  font-size: 11px;
+  margin-top: 15px;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.first-letter {
+  font-size: 55px;
+  line-height: 55px;
+  float: left;
+}
+
+/* When it's less than 500 pixels wide */
+
+@media only screen and (max-width: 500px) and (min-width: 300px) {
+  img {
+    width: 70%;
+  }
+
+  .title {
+    text-align: center !important;
+    justify-content: center;
+    position: relative;
+    margin-bottom: auto;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .dek {
+    text-align: center !important;
+    justify-content: center;
+    position: relative;
+    font-size: 16px;
+  }
+}
