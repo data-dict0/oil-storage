@@ -46,6 +46,10 @@ a:hover {
   font-weight: bold;
 }
 
+img.mobile {
+  display: none;
+}
+
 .dek {
   text-align: center !important;
   justify-content: center;
@@ -72,7 +76,7 @@ a:hover {
 
 /* When it's less than 500 pixels wide */
 
-@media only screen and (max-width: 500px) and (min-width: 300px) {
+@media only screen and (max-width: 500px) and (min-width: 250px) {
   img {
     width: 70%;
   }
@@ -84,6 +88,14 @@ a:hover {
     margin-bottom: auto;
     font-size: 20px;
     font-weight: bold;
+  }
+
+  img.mobile {
+    display: block;
+  }
+
+  img.desktop {
+    display: none;
   }
 
   .dek {
